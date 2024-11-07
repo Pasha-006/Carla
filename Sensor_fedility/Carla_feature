@@ -1,0 +1,30 @@
+Lane Invasion Detector -> it has the feature of detecting when vehicle both the front left wheel or rear front left then 
+
+case 1 
+feature it doesn have is -----------> you will not able to givene the distance like 5cm away or 5cm before vehicel about to cross 
+
+
+Case 2: 
+
+Make a scenario where the not able to differentiat ethe lane marks from the white kind of marks on road 
+
+
+case 3: 
+
+on Off road white straight line detects as lanemarks 
+
+
+
+case 4: At night times the lane marks not able to detects 
+
+
+case 5: 
+
+How vehicle behavriso when only left lane is available and no right side lane marks 
+
+
+
+
+
+
+

@@ -1,0 +1,707 @@
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15$ cd PythonAPI/
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI$ cd util/
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI/util$ python3 config.py --map=Town04
+load map 'Town04'.
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI/util$ python3 lane_explorer.py 
+  File "lane_explorer.py", line 163
+    if current_w.lane_change & carla.LaneChange.Right:
+                                                     ^
+SyntaxError: invalid syntax
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI/util$ python3 lane_explorer.py 
+Seed:  76794
+Initial location:  Location(x=376.740814, y=-172.012207, z=0.600000)
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe740>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeac0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef20>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbedd0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe350>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbeac0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbeac0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbee40>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe580>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbeba0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe970>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe510>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec80>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbeac0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe970>, <carla.libcarla.Waypoint object at 0x7fe2dffbe5f0>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbec10>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbea50>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe580>, <carla.libcarla.Waypoint object at 0x7fe2dffbec80>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe4a0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe820>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbe9e0>]
+[<carla.libcarla.Waypoint object at 0x7fe2dffbee40>, <carla.libcarla.Waypoint object at 0x7fe2dffbe7b0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe820>, <carla.libcarla.Waypoint object at 0x7fe2dffbeb30>, <carla.libcarla.Waypoint object at 0x7fe2dffbef20>, <carla.libcarla.Waypoint object at 0x7fe2dffbed60>, <carla.libcarla.Waypoint object at 0x7fe2dffbe660>, <carla.libcarla.Waypoint object at 0x7fe2dffbea50>, <carla.libcarla.Waypoint object at 0x7fe2dffbec10>, <carla.libcarla.Waypoint object at 0x7fe2dffbe6d0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe3c0>, <carla.libcarla.Waypoint object at 0x7fe2dffbef90>, <carla.libcarla.Waypoint object at 0x7fe2dffbeeb0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe430>, <carla.libcarla.Waypoint object at 0x7fe2dffbedd0>, <carla.libcarla.Waypoint object at 0x7fe2dffbecf0>, <carla.libcarla.Waypoint object at 0x7fe2dffbe740>, <carla.libcarla.Waypoint object at 0x7fe2dffbe890>, <carla.libcarla.Waypoint object at 0x7fe2dffbe350>, <carla.libcarla.Waypoint object at 0x7fe2dffbe900>, <carla.libcarla.Waypoint object at 0x7fe2dffbeac0>]
+^Z
+[1]+  Stopped                 python3 lane_explorer.py
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI/util$ python3 lane_explorer.py 
+  File "lane_explorer.py", line 160
+    points=current_w.next_until_lane_end(waypoint_separation))
+                                                             ^
+SyntaxError: unmatched ')'
+manojr6@PW-329L:~/Documents/UnrealEngine-carla/CARLA_0.9.15/PythonAPI/util$ python3 lane_explorer.py 
+Seed:  81199
+Initial location:  Location(x=376.740814, y=-172.012207, z=0.600000)
+--------------------
+Waypoint(Transform(Location(x=373.120026, y=-172.032822, z=0.195892), Rotation(pitch=0.000000, yaw=-179.673874, roll=0.000000)))
+Waypoint(Transform(Location(x=371.714020, y=-172.040817, z=0.195892), Rotation(pitch=0.000000, yaw=-179.673874, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=371.714020, y=-172.040817, z=0.195892), Rotation(pitch=0.000000, yaw=-179.673874, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=365.120148, y=-172.078354, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=361.120209, y=-172.101120, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=359.204224, y=-172.112030, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=361.120209, y=-172.101120, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=359.204224, y=-172.112030, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=359.204224, y=-172.112030, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=353.120361, y=-172.146652, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=349.120422, y=-172.169418, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=345.120483, y=-172.192184, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.120544, y=-172.214951, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.064514, y=-172.215271, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=349.120422, y=-172.169418, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=345.120483, y=-172.192184, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.120544, y=-172.214951, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.064514, y=-172.215271, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=345.120483, y=-172.192184, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.120544, y=-172.214951, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.064514, y=-172.215271, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=341.120544, y=-172.214951, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+Waypoint(Transform(Location(x=341.064514, y=-172.215271, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=341.064514, y=-172.215271, z=0.195892), Rotation(pitch=360.000000, yaw=180.326126, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=333.881073, y=-172.742996, z=0.195892), Rotation(pitch=360.000000, yaw=-156.983337, roll=0.000000)))
+Waypoint(Transform(Location(x=331.339233, y=-174.676849, z=0.154207), Rotation(pitch=358.139862, yaw=-131.581146, roll=0.000000)))
+Waypoint(Transform(Location(x=329.271332, y=-177.619247, z=0.024431), Rotation(pitch=358.254028, yaw=-118.617859, roll=0.000000)))
+Waypoint(Transform(Location(x=327.751648, y=-181.097076, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+Waypoint(Transform(Location(x=326.916779, y=-183.163162, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=331.339233, y=-174.676849, z=0.154207), Rotation(pitch=358.139862, yaw=-131.581146, roll=0.000000)))
+Waypoint(Transform(Location(x=329.271332, y=-177.619247, z=0.024431), Rotation(pitch=358.254028, yaw=-118.617859, roll=0.000000)))
+Waypoint(Transform(Location(x=327.751648, y=-181.097076, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+Waypoint(Transform(Location(x=326.916779, y=-183.163162, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=329.271332, y=-177.619247, z=0.024431), Rotation(pitch=358.254028, yaw=-118.617859, roll=0.000000)))
+Waypoint(Transform(Location(x=327.751648, y=-181.097076, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+Waypoint(Transform(Location(x=326.916779, y=-183.163162, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=327.751648, y=-181.097076, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+Waypoint(Transform(Location(x=326.916779, y=-183.163162, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=326.916779, y=-183.163162, z=0.004345), Rotation(pitch=360.000000, yaw=-112.002472, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=325.372589, y=-188.973923, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=324.407288, y=-192.855713, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=323.442017, y=-196.737488, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=322.476715, y=-200.619278, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=321.511444, y=-204.501053, z=0.004346), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=324.407288, y=-192.855713, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=323.442017, y=-196.737488, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=322.476715, y=-200.619278, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=321.511444, y=-204.501053, z=0.004346), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=323.442017, y=-196.737488, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=322.476715, y=-200.619278, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=321.511444, y=-204.501053, z=0.004346), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=322.476715, y=-200.619278, z=0.004345), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=321.511444, y=-204.501053, z=0.004346), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=321.511444, y=-204.501053, z=0.004346), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=320.546143, y=-208.382828, z=0.004347), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=319.580872, y=-212.264618, z=0.004348), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=318.615570, y=-216.146393, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=317.650299, y=-220.028183, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=316.684998, y=-223.909958, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.719727, y=-227.791748, z=0.004349), Rotation(pitch=360.000000, yaw=-103.964478, roll=0.000000)))
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.050262, y=-232.158722, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.062439, y=-233.525757, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.113068, y=-239.205536, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.157257, y=-244.158249, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.192932, y=-248.158096, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.228577, y=-252.157944, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.264252, y=-256.157806, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.276093, y=-257.484833, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.192932, y=-248.158096, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.228577, y=-252.157944, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.264252, y=-256.157806, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.276093, y=-257.484833, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.228577, y=-252.157944, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.264252, y=-256.157806, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.276093, y=-257.484833, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.264252, y=-256.157806, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.276093, y=-257.484833, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.276093, y=-257.484833, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.335602, y=-264.157471, z=0.004349), Rotation(pitch=360.000000, yaw=270.510925, roll=0.000000)))
+Waypoint(Transform(Location(x=315.328278, y=-268.223145, z=0.004349), Rotation(pitch=360.000000, yaw=268.348724, roll=0.000000)))
+Waypoint(Transform(Location(x=315.071228, y=-272.332153, z=0.004349), Rotation(pitch=360.000000, yaw=264.492462, roll=0.000000)))
+Waypoint(Transform(Location(x=314.538452, y=-276.414520, z=0.004349), Rotation(pitch=360.000000, yaw=260.636230, roll=0.000000)))
+Waypoint(Transform(Location(x=313.732300, y=-280.451843, z=0.004349), Rotation(pitch=360.000000, yaw=256.779968, roll=0.000000)))
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.328278, y=-268.223145, z=0.004349), Rotation(pitch=360.000000, yaw=268.348724, roll=0.000000)))
+Waypoint(Transform(Location(x=315.071228, y=-272.332153, z=0.004349), Rotation(pitch=360.000000, yaw=264.492462, roll=0.000000)))
+Waypoint(Transform(Location(x=314.538452, y=-276.414520, z=0.004349), Rotation(pitch=360.000000, yaw=260.636230, roll=0.000000)))
+Waypoint(Transform(Location(x=313.732300, y=-280.451843, z=0.004349), Rotation(pitch=360.000000, yaw=256.779968, roll=0.000000)))
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=315.071228, y=-272.332153, z=0.004349), Rotation(pitch=360.000000, yaw=264.492462, roll=0.000000)))
+Waypoint(Transform(Location(x=314.538452, y=-276.414520, z=0.004349), Rotation(pitch=360.000000, yaw=260.636230, roll=0.000000)))
+Waypoint(Transform(Location(x=313.732300, y=-280.451843, z=0.004349), Rotation(pitch=360.000000, yaw=256.779968, roll=0.000000)))
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=314.538452, y=-276.414520, z=0.004349), Rotation(pitch=360.000000, yaw=260.636230, roll=0.000000)))
+Waypoint(Transform(Location(x=313.732300, y=-280.451843, z=0.004349), Rotation(pitch=360.000000, yaw=256.779968, roll=0.000000)))
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=313.732300, y=-280.451843, z=0.004349), Rotation(pitch=360.000000, yaw=256.779968, roll=0.000000)))
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=312.656464, y=-284.425781, z=0.004349), Rotation(pitch=360.000000, yaw=252.923706, roll=0.000000)))
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=311.315796, y=-288.318390, z=0.004349), Rotation(pitch=360.000000, yaw=249.067444, roll=0.000000)))
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=309.716370, y=-292.112030, z=0.004349), Rotation(pitch=360.000000, yaw=245.211197, roll=0.000000)))
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=307.865448, y=-295.789490, z=0.004349), Rotation(pitch=360.000000, yaw=241.354935, roll=0.000000)))
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=305.564758, y=-299.366058, z=0.004349), Rotation(pitch=360.000000, yaw=232.952835, roll=0.000000)))
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=302.750854, y=-302.563110, z=0.004349), Rotation(pitch=360.000000, yaw=224.341400, roll=0.000000)))
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=299.489960, y=-305.302795, z=0.004349), Rotation(pitch=360.000000, yaw=215.729950, roll=0.000000)))
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=295.855591, y=-307.523285, z=0.004349), Rotation(pitch=360.000000, yaw=207.118530, roll=0.000000)))
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=291.929749, y=-309.174591, z=0.004349), Rotation(pitch=360.000000, yaw=198.507080, roll=0.000000)))
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=287.800903, y=-310.219482, z=0.004349), Rotation(pitch=360.000000, yaw=189.895645, roll=0.000000)))
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=283.562134, y=-310.634338, z=0.004349), Rotation(pitch=360.000000, yaw=181.284210, roll=0.000000)))
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=279.541168, y=-310.677795, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=275.541382, y=-310.718964, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=271.541595, y=-310.760132, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=267.541809, y=-310.801331, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=266.194794, y=-310.815186, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=259.542206, y=-310.883667, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=255.542450, y=-310.924835, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=251.542664, y=-310.966034, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=248.185745, y=-311.000580, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=255.542450, y=-310.924835, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=251.542664, y=-310.966034, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=248.185745, y=-311.000580, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=251.542664, y=-310.966034, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=248.185745, y=-311.000580, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=248.185745, y=-311.000580, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=243.543091, y=-311.048370, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=239.543304, y=-311.089539, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=235.543503, y=-311.130707, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=231.543716, y=-311.171875, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=227.543930, y=-311.213043, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=239.543304, y=-311.089539, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=235.543503, y=-311.130707, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=231.543716, y=-311.171875, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=227.543930, y=-311.213043, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=235.543503, y=-311.130707, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=231.543716, y=-311.171875, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=227.543930, y=-311.213043, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=231.543716, y=-311.171875, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=227.543930, y=-311.213043, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=227.543930, y=-311.213043, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+--------------------
+Waypoint(Transform(Location(x=223.544144, y=-311.254242, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=219.544357, y=-311.295410, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=215.544571, y=-311.336578, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+Waypoint(Transform(Location(x=213.377594, y=-311.358887, z=0.004349), Rotation(pitch=360.000000, yaw=180.589783, roll=0.000000)))
+^Z
+[2]+  Stopped                 python3 lane_explorer.py

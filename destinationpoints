@@ -1,0 +1,12 @@
+
+
+source
+spawn_point=carla.Transform(carla.Location(x=254.899170, y=-160.677505, z=0.400000), carla.Rotation(pitch=0.000000, yaw=90.176773, roll=0.000000))
+
+
+
+
+
+destination   destination=carla.Location(x=125.036736, y=-173.444916, z=0.600000)
+
+destination=carla.Location(x=194.094452, y=-248.690353, z=0.800000)    final and good one

@@ -1,0 +1,20 @@
+import pygame as pg
+from pygame_screen_record import ScreenRecorder
+
+pg.init()
+
+init_code()
+
+recorder = ScreenRecorder(60) # pass your desired fps
+recorder.start_rec() # start recording
+
+try:
+    while True:
+        event_handling()
+        updating()
+        drawing()
+finally:
+    recorder.stop_rec()	# stop recording
+    recorder.save_recording("my_recording.mp4") # saves the last recording
+    clean_up()
+    pg.quit()

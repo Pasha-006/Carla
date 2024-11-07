@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+   
+    
+    
+    <vehicle id="123" type="vehicle.ford.mustang" depart="0.0000">
+        <route edges="5.0.00 19.0.00 18.0.00 17.0.00 -52.0.00 -9.0.00"/>
+    </vehicle>
+    
+
+</routes>
